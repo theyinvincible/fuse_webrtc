@@ -1,0 +1,36 @@
+<html>
+<head>
+  <base target="_blank">
+
+  <title>getUserMedia</title>
+
+  <!-- <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../../../css/main.css"> -->
+</head>
+
+<body>
+
+  <div id="container">
+
+    <video id="localVideo" autoplay></video>
+    <video id="peerVideo" autoplay></video>
+
+    <div id="errorMsg"></div>
+
+    <div>
+      <button id="startButton">Start</button>
+      <button id="callButton">Call</button>
+      <button id="hangupButton">Hang Up</button>
+    </div>
+  </div>
+
+
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <!-- <script src="../../../js/common.js"></script> -->
+  <script src="https://aacfea0a.ngrok.io/socket.io/socket.io.js"></script>
+  <script src="rtc.js"></script>
+
+  <!-- <script src="../../../js/lib/ga.js"></script> -->
+
+</body>
+</html>
