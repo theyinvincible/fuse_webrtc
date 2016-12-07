@@ -16,6 +16,7 @@ callButton.onclick = () => {
 // dummy
 // room = prompt("Enter room name:");
 
+// CHANGE THIS: to ip address
 var socket = io.connect("https://aacfea0a.ngrok.io");
 
 
